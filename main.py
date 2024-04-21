@@ -43,7 +43,7 @@ INSERT INTO categorys(name, descr) VALUES
 ('Комбо наборы', 'Идеальное сочетание для полноценного завтрака, обеда или ужина.');
 
 INSERT INTO categorys(name, descr) VALUES 
-('Картофель, стартеры', 'Разнообразие блюд из картофеля: от классических фри до оригинальных гарниров.');
+('Картофель', 'Разнообразие блюд из картофеля: от классических фри до оригинальных гарниров.');
 
 INSERT INTO categorys(name, descr) VALUES 
 ('Завтраки', 'Начните свой день с идеального завтрака: выберите из разнообразия блюд, чтобы зарядиться энергией.');
@@ -267,7 +267,7 @@ INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
 (3, 3, '2 пиццы и напиток', 'Для уютных посиделок. 2 маленькие пиццы и напиток на выбор. Для компании из 2-4 человек.', 953);
 
 
-# Добавляем 4 из категории Картофель - "Вкусно и точка"
+# Добавляем 4 позиции из категории Картофель - "Вкусно и точка"
 INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
 (1, 4, 'Большой Снэк Бокс с Крыльями', 'Большой Снэк Бокс с Крыльями - это пикантные Куриные крылышки в хрустящей панировке – 4 шт. 
 Наггетсы – 4 шт. Сырные треугольники – 4 шт. 2 стандартные порции Картофеля фри.', 469);
@@ -282,7 +282,7 @@ INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
 (1, 4, 'Гранд Фри', 'Гранд Фри - это вкусные, обжаренные в растительном фритюре и слегка посоленные палочки картофеля.', 85);
 
 
-# Добавляем 4 из категории Картофель - "Бургер Кинг"
+# Добавляем 4 позиции из категории Картофель - "Бургер Кинг"
 INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
 (2, 4, 'Кинг Фри Сметана и Лук', 'Наша фирменная картошечка – с Вкусной штукой, нашей новой приправой со вкусом Сметана и Лук', 124.99);
 
@@ -297,7 +297,7 @@ INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
 Чтобы перемешать картофель с Острой штукой', 169.99);
 
 
-# Добавляем 4 из категории Картофель - "Бургер Кинг"
+# Добавляем 4 позиции из категории Картофель - "Бургер Кинг"
 INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
 (3, 4, 'Картофель из печи с соусом', 'Запеченная в печи картошечка с пряными специями. В комплекте сырный соус', 270);
 
@@ -309,6 +309,96 @@ INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
 
 INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
 (3, 4, 'Ланчбокс с куриными крыльями', 'Горячий сытный обед из куриных крылышек со специями и ароматом копчения, пряного картофеля из печи и соуса барбекю', 355);
+
+
+#Добавляем  5 позиции из категории Завтраки - "Вкусно и точка"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 5, 'Яичница', 'Яичница - это жареные на гриле два яйца в сочетании с ароматными английскими булочками Маффин и джемом или мёдом по вкусу. 
+Продукт доступен только во время завтрака.', 115);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 5, 'Завтрак', 'курицей', 229);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 5, 'Яичница с ветчиной', 'Яичница с ветчиной - это жареные на гриле два яйца в сочетании с ароматными английскими булочками Маффин, 
+добавлением ветчины и джемом или мёдом по вкусу. Продукт доступен только во время завтрака.', 145);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 5, 'Омлет с сыром', 'Омлет с сыром - это пышный омлет и два ломтика сыра в сочетании с ароматными английскими булочками Маффин с порцией джема.', 145);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 5, 'Большой Завтрак', 'Большой завтрак - это полноценный завтрак из пышного омлета, аппетитной свиной котлеты, картофельного оладушка и нежной английской булочки с джемом. 
+Продукт доступен только во время завтрака.', 169);
+
+
+#Добавляем  5 позиции из категории Напитки - "Вкусно и точка"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 6, 'Кока-Кола', 'Прохладительный газированный напиток Кока-Кола в бутылке.', 109);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 6, 'Фанта Мангуава', 'Фанта Мангуава - это прохладительный газированный напиток 500 мл.', 109);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 6, 'Питьевая вода Аква Минерале газированная', 'Питьевая газированныя вода Аква Минерале производства компании ПепсиКо.', 89);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 6, 'Питьевая вода Аква Минерале негазированная', 'Питьевая негазированныя вода Аква Минерале производства компании ПепсиКо.', 89);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 6, 'Апельсиновый сок', 'Состав: апельсиновый сок, охлажденная вода, сок апельсиновый концентрированный', 79);
+
+
+#Добавляем  5 позиции из категории Напитки - "Бургер Кинг"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 6, 'Эвервесс Кола', 'современная и невероятно вкусная кола от бренда премиальных газированных напитков с более чем полувековой историей. 0,5 л', 109.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 6, 'Фрустайл Апельсин', 'Frustyle - это необычный газированный напиток или лимонад. Фрустайл со вкусом Апельсин - это газировка яркого оранжевого цвета со вкусом спелого 
+сладкого апельсина с освежающей волной из миллиона пузырьков. 0,5 л', 109.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 6, 'Напиток Вода Аква Минерале с газом', 'Aqua Minerale — питьевая вода с удивительно свежим, приятным и мягким вкусом. 0,5 л', 119.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 6, 'Напиток Вода Аква Минерале без газа', 'Aqua Minerale — питьевая вода с удивительно свежим, приятным и мягким вкусом. 0,5 л', 114.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 6, 'Сок J7 Апельсиновый', 'Сок J7 Апельсиновый 0,2 л', 74.99);
+
+
+#Добавляем  5 позиции из категории Напитки - "Додо Пицца"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 6, 'Добрый Кола Малина', '0,5 л', 135);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 6, 'Добрый Апельсин', 'Маргарита', 399.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 6, 'Вода BonaAqua негазированная', '0,5 л', 75); 
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 6, 'Морс Клюква', 'Наш фирменный морс для любителей сладкой кислинки. 0,5 л', 149);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 6, 'Яблочный сок Rich', '1 л', 259);
+
+
+#Добавляем  5 позиции из категории Напитки - "Пипони"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 6, 'Вода Aqua Minerale (без газа)', '0,6 л', 100);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 6, 'Вода Aqua Minerale (с газом)', '0,6 л', 100);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 6, 'Напиток Evervess Апельсин 0,33 л', '0,33 л', 100);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 6, 'Напиток Evervess Апельсин 1,5 л', '1,5 л', 200);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 6, 'Напиток Evervess Лимон-Лайм 1,5 л', '1,5 л', 200);
+
 
 
 
