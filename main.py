@@ -156,26 +156,65 @@ INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (2, 1, 
 
 
 # Добавляем 10 пицц - "Додо пицца"
-INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Креветки со сладким чили', 'Состав: Креветки, ананасы, соус сладкий чили, сладкий перец, моцарелла, фирменный соус альфредо', 899);
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Креветки со сладким чили', 'Состав: Креветки, ананасы, соус сладкий чили, сладкий перец, моцарелла, 
+фирменный соус альфредо', 899);
 
 INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Сырная', 'Состав: Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо', 539);
 
-INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Пепперони фреш', 'Состав: Пикантная пепперони, увеличенная порция моцареллы, томаты, фирменный томатный соус', 539);
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Пепперони фреш', 'Состав: Пикантная пепперони, увеличенная порция моцареллы, томаты, 
+фирменный томатный соус', 539);
 
 INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Двойной цыпленок', 'Состав: Цыпленок, моцарелла, фирменный соус альфредо', 619);
 
 INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Ветчина и сыр', 'Состав: Ветчина, моцарелла, фирменный соус альфредо', 619);
 
-INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Чоризо фреш', 'Состав: Острые колбаски чоризо, сладкий перец, моцарелла, фирменный томатный соус', 539);
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Чоризо фреш', 'Состав: Острые колбаски чоризо, сладкий перец, моцарелла, фирменный томатный соус', 
+539);
 
-INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Пицца Жюльен', 'Состав: Цыпленок, шампиньоны, ароматный грибной соус, красный лук, чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо', 799);
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Пицца Жюльен', 'Состав: Цыпленок, шампиньоны, ароматный грибной соус, красный лук, чеснок, 
+моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо', 799);
 
 INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Додо Микс', 'Состав: Бекон, цыпленок, ветчина, сыры чеддер и пармезан, соус песто, кубики брынзы, 
 томаты, красный лук, моцарелла, фирменный соус альфредо, чеснок, итальянские травы', 219);
 
-INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Бургер', 'Состав: ', 219);
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Песто', 'Состав: Цыпленок, соус песто, кубики брынзы, томаты, моцарелла, фирменный соус альфредо', 799);
 
-INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Бургер', 'Состав: ', 219);
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (3, 2, 'Карбонара', 'Состав: Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук, чеснок, 
+фирменный соус альфредо, итальянские травы', 899);
+
+
+# Добавляем 10 пицц - "Пипони"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
+(4, 2, 'Цезарь', 'Состав: Куриная грудка, салат Айсберг, помидоры Черри, сухарики, сыр Моцарелла, сыр Пармезан, соус Цезарь, зелень.', 800);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
+(4, 2, 'Пипони', 'Состав: Говядина, салями, перец болгарский, шампиньоны, помидоры, маслины, зелень, специи, сыр Моцарелла, соус Пипони', 800);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
+(4, 2, 'Мясная', 'Состав: Говядина, салями, сыр Моцарелла, соус Пипони', 800);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
+(4, 2, 'Ко-ко', 'Состав: Куриные грудки, перец болгарский, помидоры, зелень, сыр Моцарелла, соус Пипони', 800);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
+(4, 2, '4 сыра', 'Состав: Сыр Моцарелла, Сыр Горгонзола, сыр Пармезан, сыр Дор-блю, зелень, соус Пипони', 800);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
+(4, 2, 'Морская', 'Состав: Сёмга, маслины, помидоры, сыр Моцарелла, соус Пипони', 800);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
+(4, 2, 'Винченцо', 'Состав: Салями, куриные грудки, перец болгарский, помидоры, зелень, сыр Моцарелла, соус Пипони', 800);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
+(4, 2, 'Французская', 'Состав: Жаренный лук, французский соус с травами (розмарин, тимьян, чабер, базилик, эстрагон), тёртое яйцо, сыр Моцарелла, перепелиные яйца, панированные в сыре Пармезан, зелень', 800);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
+(4, 2, 'Греческая', 'Состав: Помидоры, свежие огурцы, перец болгарский, маслины, сыр Фетаки, сыр Моцарелла, зелень, оливковое масло', 800);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES 
+(4, 2, 'Океанская', 'Состав: Креветки, кальмары, осьминоги, помидоры, специи, сыр Моцарелла, соус Пипони', 800);
+
+
 
 
 

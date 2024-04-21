@@ -1,0 +1,49 @@
+# Добавляем записи в таблицу "Рестораны"
+
+INSERT INTO restaurants(name, address) VALUES 1.('Вкусно и точка', 'Москва ул Лесная д 5');
+INSERT INTO restaurants(name, address) VALUES 2.('Бургер Кинг', 'Москва ул Металлургов д 10');
+INSERT INTO restaurants(name, address) VALUES 3.('Додо Пицца', 'Москва Волгоградский проспект д 110');
+INSERT INTO restaurants(name, address) VALUES 4.('Пипони', 'Москва ул Вавилова д 37');
+
+
+# Добавляем записи в таблицу "Категории"
+
+1. INSERT INTO categorys(name, descr) VALUES ('Бургеры');
+
+2. INSERT INTO categorys(name, descr) VALUES ('Пиццы', ');
+
+3. INSERT INTO categorys(name, descr) VALUES ('Комбо наборы');
+
+4. INSERT INTO categorys(name, descr) VALUES ('Картофель, стартеры');
+
+5. INSERT INTO categorys(name, descr) VALUES ('Завтраки');
+
+6. INSERT INTO categorys(name, descr) VALUES ('Напитки');
+
+7. INSERT INTO categorys(name, descr) VALUES ('Коктейли');
+
+8. INSERT INTO categorys(name, descr) VALUES ('Десерты');
+
+9. INSERT INTO categorys(name, descr) VALUES ('Кофе');
+
+10. INSERT INTO categorys(name, descr) VALUES ('Соусы');
+
+
+
+# Создаём таблицу "Блюда"
+
+CREATE TABLE IF NOT EXISTS dishs (
+    dish_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    restaurant_id INTEGER NOT NULL,
+    category_id INTEGER NOT NULL,
+    name TEXT NOT NULL,
+    descr TEXT NOT NULL,
+    price REAL NOT NULL,
+    FOREIGN KEY (restaurant_id) REFERENCES restaurants(restaurant_id),
+    FOREIGN KEY (category_id) REFERENCES categorys(category_id)
+
+
+# Добавляем 10 бургеров - "Вкусно и точка"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES (1, 1, 'Биг Спешиал', 'Биг Спешиал - это неповторимый сандвич с большим рубленым бифштексом из 100% отборной 
+говядины на большой булочке с кунжутом. Особенный вкус сандвичу придают три кусочка сыра Эмменталь, два ломтика помидора, свежий салат, лук и соус с дымком.', 269);
+
