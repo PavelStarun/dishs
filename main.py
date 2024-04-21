@@ -520,20 +520,112 @@ INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
 (4, 8, 'Чизкейк Яблочно-Карамельный', '200 гр', 200);
 
 
+#Добавляем  5 позиции из категории Кофе - "Вкусно и точка"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 9, 'Айс Кофе Кленовый пекан', 'Айс Кофе Кленовый пекан - это холодный молочный напиток с тонким ароматом эспрессо со вкусом кленового сиропа и ореха пекан.', 135);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 9, 'Капучино', 'Капучино - это ароматный Эспрессо с добавлением взбитого молока и плотной шапкой молочной пены, сверху посыпанный шоколадной пудрой или корицей.', 65);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 9, 'Латте', 'Состав Латте: горячая вода, кофейные зерна Paulig Espresso Originale, молоко питьевое ультрапастеризованное', 105);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 9, 'Американо', '0,4 л', 93);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 9, 'Горячий Шоколад', 'Горячий Шоколад - это напиток с нежным сливочным вкусом, приготовленный на основе вспененного молока с шоколадной пудрой.', 179);
+
+
+#Добавляем  5 позиции из категории Кофе - "Бургер Кинг"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 9, 'Латте Тирамису', 'Нежный Латте со вкусом знаменитого итальянского десерта Тирамису — с нотками какао, сливочного сыра Маскарпоне и бисквитного печенья. 0,5 л', 199.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 9, 'Латте', 'Нежный молочно-кофейный напиток состоит из трех слоев: молока, кофе и молочной пенки.', 139.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 9, 'Капучино', 'Ароматный кофейный напиток с нежной молочной пенкой.', 79.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 9, 'Кофе', 'Натуральный свежесваренный кофе станет прекрасным началом дня или дополнением к плотному обеду и легкому десерту. 0,3 л', 124.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 9, 'Глясе', 'Натуральный свежесваренный кофе с добавлением мороженого. 0,3 л', 149.99);
+
+
+#Добавляем  5 позиции из категории Кофе - "Додо Пицца"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 9, 'Кофе Карамельный капучино', 'Если не шоколад, то карамель! А капучино с карамельным сиропом особенно хорош. 0,3 л', 159);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 9, 'Кокосовый латте', 'Горячий напиток на основе эспрессо с увеличенной порцией молока и кокосовым сиропом. 0,3 л', 159);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 9, 'Айс Капучино', 'Освежающий напиток для любителей кофе. В составе эспрессо, пломбир, молоко и бодрость на весь день. 0,3 л', 220);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 9, 'Капучино', 'Король среди кофейных напитков — классический капучино. Для любителей сбалансированного кофейно-молочного вкуса. 0,4 л', 159);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 9, 'Латте', 'Когда хочется нежную молочную пенку, на помощь приходит классический латте. 0,4 л', 159);
+
+
+#Добавляем  позицию из категории Кофе - "Пипони"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 9, 'Кофе Lavazza', 'в ассортименте, 200 мл', 100);
 
 
 
+#Добавляем  5 позиции из категории Соусы - "Вкусно и точка"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 10, 'Сырный', 'Соус Сырный - вероятно, самая популярный соус в Макдональдс и не только. Идеально сочетается с блюдами из птицы и запеченым картофелем.', 40);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 10, 'Кисло-Сладкий', 'Традиционный кисло-сладкий соус - это универсальная заправка, которая прекрасно подойдет для мясных, рыбных и овощных блюд. Вес продукта 25 грамм.', 40);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 10, 'Терияки', 'Терияки - это классический солоновато-сладкий соус азиатской кухни на основе соевого соуса. Вес продукта 25 грамм.', 40);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 10, '1000 Островов', 'Соус 1000 Островов - это сочетание майонеза и кетчупа. Пикантная заправка отлично подойдет к любому блюду. Вес продукта 25 грамм.', 40);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 10, 'Чесночный', 'Соус Чесночный - пикантная заправка с нежным сливочно-чесночным вкусом на основе растительных масел чеснока. Вес продукта 25 грамм.', 40);
 
 
+#Добавляем  5 позиции из категории Соусы - "Бургер Кинг"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 10, 'Соус Тар - Тар', '25 грамм', 64.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 10, 'Соус Сырный', '25 грамм', 59.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 10, 'Сырный соус Пармеджано', '25 грамм', 64.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 10, 'Соус Чесночный', '25 грамм', 59.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 10, 'Соус Кисло-сладкий', '25 грамм', 59.99);
 
 
+#Добавляем  5 позиции из категории Соусы - "Додо пицца"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 10, 'Сырный', 'Фирменный соус с дымным ароматом для бортиков пиццы и горячих закусок, 25 г', 45);
 
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 10, 'Чесночный соус', 'Фирменный соус с чесночным вкусом для бортиков пиццы и горячих закусок, 25 г', 45);
 
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 10, 'Барбекю', 'Фирменный соус с дымным ароматом для бортиков пиццы и горячих закусок, 25 г', 45);
 
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 10, 'Сладкий чили', 'Фирменный соус с дымным ароматом для бортиков пиццы и горячих закусок, 25 г', 45);
 
-
-
-
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 10, 'Малиновое варенье', 'Идеально к сырникам, 25 г', 45);
 
 
 ''')
