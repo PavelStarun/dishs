@@ -452,6 +452,75 @@ INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
 (4, 7, 'Коктейль Шоколадный', '32 см.', 200);
 
 
+#Добавляем  5 позиции из категории Десерты - "Вкусно и точка"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 8, 'Пирожок Вишневый', 'Пирожок Вишневый - это обжаренный во фритюре пирожок со сладкой начинкой из 100% вишни.', 59);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 8, 'Мороженое Карамельное', 'Мороженое Карамельное - это классическое мороженое из 100% натурального цельного молока с добавлением карамели.', 84);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 8, 'Айс Де Люкс Шоколадный брауни', 'Айс Де Люкс Шоколадный брауни - мороженое из натурального цельного молока с кусочками шоколадного брауни и топпингом.', 109);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 8, 'Айс Де Люкс Шоколадно-клубничное', 'Айс Де Люкс Шоколадно-клубничное - это мороженое из натурального цельного молока, взбитое с клубничным наполнителем и с вафельно-шоколадной крошкой.', 119);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(1, 8, 'Яблочное пюре Агуша', 'Яблочное пюре Агуша - это натуральное пюре на основе свежих спелых яблок в мягкой упаковке.', 65);
+
+
+#Добавляем  5 позиции из категории Десерты - "Бургер Кинг"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 8, 'Пирожок Клубника-Банан', 'горячий пирожок из тонкого хрустящего теста с двухслойной начинкой: сладость банана оттеняется ароматом клубничного джема — это что-то на богемном!', 94.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 8, 'Горячий Брауни', 'Это горячее нежное пирожное с темным шоколадом внутри.', 124.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 8, 'Горячий Брауни с мороженым', 'Это нежное пирожное с темным шоколадом внутри. Оно подается горячим и особенно вкусно, если добавить сверху мороженое.', 165.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 8, 'Сандэй Клубничный', 'Ванильное мороженое с наполнителем - клубничный соус.', 134.99);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(2, 8, 'Айс Твист Шоколадный', 'Шоколадный топпинг и нежное взбитое мороженое с хрустящими кусочками песочного печенья. Айс, как вкусно!', 154.99);
+
+
+#Добавляем  5 позиции из категории Десерты - "Додо Пицца"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 8, 'Чизкейк Нью Йорк с кокосом', 'Это не классический творожный чизкейк, а похож! Это его нежный брат близнец с новым кокосовым вкусом', 159);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 8, 'Слоеные палочки с ананасами и брусникой', 'Здесь все сразу — брусника и ананас со сгущенкой на слоеном тесте', 269);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 8, 'Макарон манго-маракуйя', 'Bon appétit! Знаменитый французский десерт со вкусом тропических фруктов', 119);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 8, 'Эклеры-мини с заварным кремом', 'Три эклера — это много или мало? Мы считаем, в самый раз. Десерт с нежной начинкой для кофе и компаний', 159);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(3, 8, 'Маффин Три шоколада', 'Ну и кекс этот маффин! Он из натурального какао, а внутри — нежная начинка из кубиков белого и молочного шоколада', 99);
+
+
+#Добавляем  5 позиции из категории Десерты - "Пипони"
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 8, 'Чизкейк Нью-Йорк', '200 гр', 200);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 8, 'Чизкейк Малиновый', '200 гр', 200);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 8, 'Чизкейк Клубничный', '200 гр', 200);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 8, 'Чизкейк Шоколадный', '200 гр', 200);
+
+INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
+(4, 8, 'Чизкейк Яблочно-Карамельный', '200 гр', 200);
+
+
+
 
 
 

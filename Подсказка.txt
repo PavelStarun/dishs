@@ -10,7 +10,7 @@ INSERT INTO restaurants(name, address) VALUES 4.('Пипони', 'Москва �
 
 1. INSERT INTO categorys(name, descr) VALUES ('Бургеры');
 
-2. INSERT INTO categorys(name, descr) VALUES ('Пиццы', ');
+2. INSERT INTO categorys(name, descr) VALUES ('Пиццы');
 
 3. INSERT INTO categorys(name, descr) VALUES ('Комбо наборы');
 
