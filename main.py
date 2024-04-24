@@ -627,6 +627,8 @@ INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
 INSERT INTO dishs(restaurant_id, category_id, name, descr, price) VALUES
 (3, 10, 'Малиновое варенье', 'Идеально к сырникам, 25 г', 45);
 
+#вставка фоток 
+
 
 ''')
 # Завершаем транзакцию и закрываем соединение
